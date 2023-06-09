@@ -16,6 +16,8 @@ This mod completely overhauls the vanilla fluid dynamics in minecraft to add mor
 - _(future: add rain mechanics: replenish water bodies, collect water for use)_
 
 ## Bugs
+TL;DR: There are still many serious bugs in the latest version, which can destroy/create fluids, destroy blocks, behave erroneously and create lots of lag.
+
 Note that many things are still not working (in all versions), including, but not limited to:
 - mass conservation: water is created/destroyed all over the place in different situations, mostly due to buggy block interactions (e.g. with waterlogged blocks, lava, ...)
 - block-fluid interactions: many blocks are destroyed when water is placed/flows into them, drop when they should not drop, etc.
