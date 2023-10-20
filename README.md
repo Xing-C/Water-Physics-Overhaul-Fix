@@ -33,3 +33,6 @@ Note that many things are still not working (in all versions), including, but no
   - [ ] fix Fluids (FlowingFluid & FlowingFluidBlock) to handle FluidStates correctly
   - [ ] ironing out bugs
 - [ ] fix all other bugs...
+
+
+<a href="https://www.buymeacoffee.com/felicis" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
