@@ -122,7 +122,6 @@ public abstract class FFluidBasic extends BasicExecutor {
 	protected int getAbsoluteLevel(int y, int l) {
 		return (y * MFL) + l;
 	}
-
 	@Override
 	public void run() {
 		if (level > 0 && (fluid instanceof FlowingFluid)) {

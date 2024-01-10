@@ -24,9 +24,9 @@ public class FFluidDefaultV2 extends FFluidBasic {
 	@Override
 	protected void execute() {
 		Random r = new Random();
-
+		// TODO: Xing-C fix.3
 		BlockPos posD = pos.below();
-		if (posD.getY() < 0) {
+		if (posD.getY() < -64) {
 			if (validate(pos)) {
 				state = getUpdatedState(state, 0);
 				sc = true;

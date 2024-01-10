@@ -51,9 +51,9 @@ public class FFluidDefault extends FFluidBasic {
 		if (!validate(pos)) {
 			return;
 		}
-
+		// TODO: Xing-C fix.1
 		BlockPos posD = pos.below();
-		if (posD.getY() < 0) {
+		if (posD.getY() < -64) {
 			level = 0;
 			state = getUpdatedState(state, level);
 			sc = true;
